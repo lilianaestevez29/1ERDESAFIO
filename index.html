@@ -11,8 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
 <body>
     <header>
@@ -52,9 +51,29 @@
         </section>
         <section class="banner">
             <!-- debe ir una imagen -->
-            <h1>Banner</h1>
-            <img src="./img/memoria.jpg" alt="memoria">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse explicabo repellendus similique pariatur, quidem minus sit sequi laudantium voluptatum ullam cumque animi, impedit nemo, libero quas facilis. Deleniti, a quod!</p>
+            <h1 class="texto">Lo que buscas lo tenemos!</h1>
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="primera" src="./img/accesorios-laptop.jpg" class="d-block w-100" alt="accesorios">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="segunda" src="./img/accesorios-laptop1.jpg" class="d-block w-100" alt="accesorios-laptop1">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="tercera" src="./img/Lapto.jpg"class="d-block w-100" alt="laptop">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse explicabo repellendus similique pariatur, quidem minus sit sequi laudantium voluptatum ullam cumque animi, impedit nemo, libero quas facilis. Deleniti, a quod!Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse explicabo repellendus similique pariatur, quidem minus sit sequi laudantium voluptatum ullam cumque animi, impedit nemo, libero quas facilis. Deleniti, a quod!</p>
         </section>
         <section>
             <nav>
@@ -94,8 +113,6 @@
     <footer>
         <p class="letra-chica">Terminos & Condiciones  </p>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
