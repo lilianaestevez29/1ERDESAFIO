@@ -12,17 +12,10 @@ body{
     height: 2rem;   
    } */
 /* ******************* HEADER *********************/
-/* header{
-    
-    background-color: #B746D3;
-    display:flex ; 
-    flex-wrap: nowrap;  
-    justify-content: space-between;
-    align-items: center;
-    height: 4rem;
-    padding-top: 3px;
-    padding-left: 5px;
-}  */
+
+header{
+    border: #b484e1 15px solid;
+}
 
 .logotipo{
     width: 100px;
@@ -30,16 +23,9 @@ body{
     border-radius: 10px;
 }
 .encabezado{
-    background-color: #b484e1;
-    height: 100px;
-    
-    
+    background-color: #b484e1;   
 }
-/* #buscar{
-    border-radius: 10px;
-    width: 60rem; 
-    height: 2rem;   
-   } */
+
 /* ******************* MAIN *********************/
                      /* Inicio */
 .texto{
@@ -50,9 +36,7 @@ body{
     text-align: center;
     
 }
-/* .banner h1{
-    padding: 10px;
-} */
+
 .banner p{
     color: rgb(117, 117, 218);
     padding-top: 50px;
@@ -100,9 +84,9 @@ nav ul li img{
 }
 a{
     text-decoration: none;
-    color: rgb(232, 105, 169);
+    color: #9869e8;
     padding: auto;
-    font-size: 15px;
+    font-size: 20px;
 }
 .menu{
     display: flex;
@@ -126,16 +110,16 @@ button{
     
 }
 
-                    /* Producto */
+                    /* Productos */
 .producto {
     display: flex;
     flex-direction: row;
 }
-.producto img{
+ .producto img{
     border-radius: 20px;
     margin: 20px;
     width: 40rem;
-    height: 25rem;
+    height: 25rem; 
 }
 .producto div h1{
    margin-top: 15px;
@@ -143,9 +127,11 @@ button{
    text-align: justify;
 }
 .producto h3{
+    color: bisque;
     margin-top: 80px;
 }
 .producto p{
+    color: rgb(242, 134, 237);
     line-height: 20px;
     margin: 50px;
     text-align: justify;
@@ -157,21 +143,25 @@ button{
     flex-direction: row;
 }
  h1{
+    color: #b484e1;
     margin-top: 15px;
     padding-left: 30px;
     text-align: justify;
  } 
 .nosotros div h3{
+     color: bisque;
      margin-top: 50px;
  }
 
 .nosotros div p{
+     color: rgb(234, 123, 240);
      line-height: 20px;
      margin: 10px;
      text-align: justify;
+     
  }
 .nosotros .column-2 {
-    padding-top: 43px;
+    padding-top: 60px; 
 }
 .nosotros img{
     border-radius: 30px;
@@ -229,7 +219,9 @@ input[type=checkbox], [type=radio]{
     height: 20px;
     width: 24px;
 }
-
+legend, label, .pro, .tipo{
+    color: #9869e8;
+}
                         /* Promociones*/ 
 .padre{
     display: flex;
@@ -237,7 +229,8 @@ input[type=checkbox], [type=radio]{
    
 }
 .sect1, .sect2, .sect3{
-    font-size: 16px;
+    color: #ed79d0;
+    font-size: 8px;
     display: flex;
     flex-direction: row;
     
@@ -261,27 +254,43 @@ input[type=checkbox], [type=radio]{
     height: 10rem;
 }
 .sect1 h3{
+    color: #f184d8;
     margin-top: 10px;
+    font-size: 18px;
+}
+.sect2 h3{
+    color: #f184d8;
+    margin-top: 10px;
+    font-size: 18px;
+}.sect3 h3{
+    color: #f184d8;
+    margin-top: 10px;
+    font-size: 18px;
 }
 .sect1 p{
+    color: bisque;
     font-size: 12px;
     line-height: 18px;
     margin: 8px;
     text-align: justify;
 }                  
 .sect2 p{
+    color: bisque;
     font-size: 12px;
     line-height: 18px;
     margin: 8px;
     text-align: justify;
 } 
 .sect3 p{
+    color: bisque;
     font-size: 12px;
     line-height: 18px;
     margin: 8px;
     text-align: justify;
 } 
-
+.descrip{
+    color: #9869e8;
+}
 
 /*******************************************/
 
